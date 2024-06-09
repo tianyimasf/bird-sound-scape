@@ -1,1 +1,8 @@
 .env
+/data
+
+/ios/ios/Assets.xcassets
+/ios/ios/Preview Content
+/ios/iosTests
+/ios/iosUITests
+*.DS_Store
