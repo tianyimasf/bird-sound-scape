@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9A07842E2C162E64006DF6D3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07842D2C162E64006DF6D3 /* MapView.swift */; };
 		9A0784342C163189006DF6D3 /* bird_icon_names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A0784332C163189006DF6D3 /* bird_icon_names.txt */; };
+		9A0784362C167A9D006DF6D3 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0784352C167A9D006DF6D3 /* helper.swift */; };
 		9A6273382C1000FD004EEB3C /* Circleimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6273372C1000FD004EEB3C /* Circleimage.swift */; };
 		9A7A1B382C14EF3F00588195 /* BirdIconsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A27F12B2C112FED003C3C89 /* BirdIconsBundle.bundle */; };
 		9A7A1B3B2C14F14500588195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD23FF92C080CA900754741 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		9A07842F2C162FF3006DF6D3 /* bird_icon_names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bird_icon_names.txt; path = ios/bird_icon_names.txt; sourceTree = SOURCE_ROOT; };
 		9A0784312C16301E006DF6D3 /* bird_icon_names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bird_icon_names.txt; path = ../../data/bird_icon_names.txt; sourceTree = "<group>"; };
 		9A0784332C163189006DF6D3 /* bird_icon_names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bird_icon_names.txt; path = ../../data/bird_icon_names.txt; sourceTree = "<group>"; };
+		9A0784352C167A9D006DF6D3 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 		9A27F12B2C112FED003C3C89 /* BirdIconsBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdIconsBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6273372C1000FD004EEB3C /* Circleimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circleimage.swift; sourceTree = "<group>"; };
 		9AD23FF22C080CA800754741 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 				9A6273372C1000FD004EEB3C /* Circleimage.swift */,
 				9AD23FF92C080CA900754741 /* Assets.xcassets */,
 				9AD23FFB2C080CA900754741 /* Preview Content */,
+				9A0784352C167A9D006DF6D3 /* helper.swift */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				9AD23FF82C080CA800754741 /* ContentView.swift in Sources */,
 				9A07842E2C162E64006DF6D3 /* MapView.swift in Sources */,
 				9AD23FF62C080CA800754741 /* iosApp.swift in Sources */,
+				9A0784362C167A9D006DF6D3 /* helper.swift in Sources */,
 				9A6273382C1000FD004EEB3C /* Circleimage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

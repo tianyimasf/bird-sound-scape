@@ -2,12 +2,15 @@ import SwiftUI
 
 
 struct ContentView: View {
+    
+    @State private var icon_info = getRandomizedIcon()
+    
     var body: some View {
         VStack {
             MapView()
-                .frame(height: 300)
+                .frame(height: 550)
 
-            CircleImage()
+            CircleImage(icon_info: self.$icon_info)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
@@ -15,7 +18,7 @@ struct ContentView: View {
                 Text("John Doe")
                     .font(.title)
                 HStack {
-                    Text("Level 1, Bird Guardian")
+                    Text(self.icon_info[1].capitalized)
                         .font(.subheadline)
                     Spacer()
                     Text("📍Boulder, CO")
@@ -31,8 +34,6 @@ struct ContentView: View {
                 Text("Some bird description.")
             }
             .padding()
-            
-            Spacer()
         }
     }
 }
